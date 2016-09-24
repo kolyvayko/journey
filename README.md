@@ -1,5 +1,9 @@
 # Journey
 A blog engine written in Go, compatible with Ghost themes.
+[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/kabukky/journey/develop/LICENSE)
+[![GoDoc](http://godoc.org/github.com/kabukky/journey?status.png)](http://godoc.org/github.com/kabukky/journey)
+[![Build Status](https://travis-ci.org/twinj/journey.png?branch=develop)](https://travis-ci.org/kabukky/journey)
+[![Coverage Status](https://coveralls.io/repos/github/twinj/journey/badge.svg?branch=develop)](https://coveralls.io/github/twinj/journey?branch=develop)
 
 ![Editor](https://raw.githubusercontent.com/kabukky/journey/gh-pages/images/journey.png)
 
