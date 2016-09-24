@@ -1,8 +1,9 @@
 # Journey
 A blog engine written in Go, compatible with Ghost themes.
+[![Build Status](https://travis-ci.org/twinj/journey.png?branch=development)](https://travis-ci.org/twinj/development)
+[![Coverage Status](https://coveralls.io/repos/github/twinj/journey/badge.svg?branch=development)](https://coveralls.io/github/twinj/journey?branch=development)
 
 ![Editor](https://raw.githubusercontent.com/kabukky/journey/gh-pages/images/journey.png)
-[![Build Status](https://travis-ci.org/twinj/journey.png?branch=development)](https://travis-ci.org/twinj/development)
 
 ## About
 Please note that Journey is still in alpha and has not been tested in production. Not all Ghost theme helpers have been implemented yet so there is bound to be trouble with some Ghost themes. Please open a [New Issue](https://github.com/kabukky/journey/issues) if you encounter a theme that doesn't work.
