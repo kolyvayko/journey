@@ -1,5 +1,5 @@
 language: go
-go_import_path: githug.com/kabukky/journey
+go_import_path: github.com/kabukky/journey
 go:
     - 1.6
     - 1.5
