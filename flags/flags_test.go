@@ -3,7 +3,7 @@ package flags
 import (
 	"flag"
 	"fmt"
-	"github.com/stretchr/testify/assert"
+	"gopkg.in/stretchr/testify.v1/assert"
 	"os"
 	"testing"
 )

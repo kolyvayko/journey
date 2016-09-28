@@ -1,22 +1,30 @@
 language: go
+sudo: required
 go_import_path: github.com/kabukky/journey
+
 go:
+    - 1.7
     - 1.6
     - 1.5
+
 os:
     - linux
-    - osx
+
 sudo: false
+
 before_script:
     - gofmt -s -l -e .
     - go vet ./...
+
 before_install:
     - go get -t -v ./...
     - go get github.com/mattn/goveralls
     - go get golang.org/x/tools/cmd/cover
+
 script:
     - go test -v -short -covermode=count -coverprofile=coverage.out -coverpkg=./...
     - go test ./... -v -short -race
     - $HOME/gopath/bin/goveralls -coverprofile=coverage.out -service=travis-ci
+
 notifications:
     email: true
